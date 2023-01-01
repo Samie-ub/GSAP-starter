@@ -21,7 +21,26 @@
     background-color: gainsboro;
 }
 
-body{
+.split{
     display: flex;
     align-items: center;
+    justify-content: center;
+    padding: 15% 0;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.animation_btn{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1c1c1c;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
 }
